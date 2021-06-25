@@ -1,7 +1,7 @@
 {
-    "name": "zny-nomp",
+    "name": "BCX Pool",
     "version": "0.0.4",
-    "description": "BitZeny (yescrypt) stratum mining pool based on NOMP",
+    "description": "BitcoinX stratum mining pool based on NOMP",
     "keywords": [
         "stratum",
         "mining",
@@ -12,9 +12,9 @@
         "zny",
         "yescrypt"
     ],
-    "homepage": "https://github.com/ROZ-MOFUMOFU-ME/zny-nomp",
+    "homepage": "https://github.com/garyyue2019/zny-nomp",
     "bugs": {
-        "url": "https://github.com/ROZ-MOFUMOFU-ME/zny-nomp/issues"
+        "url": "https://github.com/garyyue2019/zny-nomp/issues"
     },
     "license": "MIT",
     "author": "Joshua Yabut",
@@ -32,7 +32,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ROZ-MOFUMOFU-ME/zny-nomp.git"
+        "url": "https://github.com/garyyue2019/zny-nomp.git"
     },
     "dependencies": {
         "async": "^2.6.3",
