@@ -1,0 +1,76 @@
+{
+    "enabled": true,
+    "coin": "bcx.json",
+
+    "address": "XRoDJKGvVNHUXBidMHP7owfNQvQxgzrGxs",
+
+    "rewardRecipients": {
+        "XH1kG6j9GiyG4829gRFBQ7zKxtD9U7riKk": 1.5
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 20,
+        "minimumPayment": 70,
+        "daemon": {
+            "host": "192.168.0.45",
+            "port": 9999,
+            "user": "gary1",
+            "password": "x"
+        }
+    },
+
+    "ports": {
+        "3008": {
+            "diff": 8,
+            "varDiff": {
+                "minDiff": 4,
+                "maxDiff": 128,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3032": {
+            "diff": 32,
+            "varDiff": {
+                "minDiff": 8,
+                "maxDiff": 512,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3256": {
+            "diff": 256
+        }
+    },
+
+    "daemons": [
+        {
+           "host": "192.168.0.45",
+            "port": 9999,
+            "user": "gary1",
+            "password": "x"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}
