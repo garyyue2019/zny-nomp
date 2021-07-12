@@ -11,6 +11,8 @@
     "paymentProcessing": {
         "enabled": true,
         "paymentInterval": 20,
+         "paymentMode": "prop",
+        "_comment_paymentMode": "prop, pplnt",
         "minimumPayment": 70,
         "daemon": {
             "host": "192.168.0.45",
