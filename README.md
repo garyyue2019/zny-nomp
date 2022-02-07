@@ -80,6 +80,11 @@ a good pool operator. For starters be sure to read:
 
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
+
+npm   5.6.0 
+node  v9.11.2
+
+
 ```bash
 sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
