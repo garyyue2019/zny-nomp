@@ -89,6 +89,7 @@ node  v9.11.2
 sudo apt-get install build-essential libsodium-dev npm
 sudo npm install n -g
 sudo n v9
+sudo apt-get install redis-server
 git clone https://github.com/ROZ-MOFUMOFU-ME/zny-nomp
 cd zny-nomp
 npm update
