@@ -83,7 +83,8 @@ Clone the repository and run `npm update` for all the dependencies to be install
 
 npm   5.6.0 
 node  v9.11.2
-
+连接不上github时
+git config --global url."https://github.com".insteadOf git://github.com
 
 ```bash
 sudo apt-get install build-essential libsodium-dev npm
